@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    overflow-x: hidden; 
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white;
+    position: fixed; 
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 44px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+nav {
+    display: flex;
+    align-items: left;
+    gap: 30px;
+    text-align: left;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.saoud {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('https://wallpapercave.com/wp/wp1842342.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 0 20px;
+}
+
+.saoud h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.saoud p {
+    font-size: 24px;
+    margin: 10px 0 0;
+}
+
+.about{
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    align-items: center;
+    background-color:rgb(241, 231, 231);
+height: 50vh;
+}
+.services{
+height: 50vh;
+background-color:rgb(241, 231, 231);
+justify-content: center;
+text-align: center;
+font-size: 1.5rem;
+justify-content: space-between;
+padding: 10px;}
+
+.list{
+    list-style: none;
+}
+
+.contact{
+    background-color:rgb(241, 231, 231);
+    height: 50vh;
+    text-align: center;
+    padding: 10px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+
+    height: 50vh;
+}
+
+.contact input, .contact textarea {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    padding: 10px 20px;
+    border: none;
+    background-color:black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    nav {
+        display: none;
+    }
+
+    
+}
